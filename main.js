@@ -65,29 +65,18 @@
 
 /*5*/
 
-// function engKattaEngKichikTopib(array) {
-//     if (array.length === 0) {
-//         // Agar array bo'sh bo'lsa, null qaytarib qo'yamiz
-//         return null;‍
-//     }
+//  function getObjectKeysArray(obj) {
+//      return Object.keys(obj);‍
+//  }
 // ‍
-//     let engKatta = array[0];
-//     let engKichik = array[0];‍
-// ‍
-//     for (let i = 1; i < array.length; i++) {
-//         if (array[i] > engKatta) {
-//             engKatta = array[i];‍
-//         }‍
-//         if (array[i] < engKichik) {
-//             engKichik = array[i];‍
-//         }
-//     }
-// ‍
-//     return { engKatta, engKichik };‍
-// }
-// ‍
-// // Misol
-// let sonlarArray = [3, 7, 9, 11, 1, 7];
-// let natija = engKattaEngKichikTopib(sonlarArray);
-// console.log("Eng katta:", natija.engKatta);
-// console.log("Eng kichik:", natija.engKichik);
+//  function getObjectValuesArray(obj) {
+//      return Object.values(obj);‍
+//  }
+//  function processObject(obj) {
+//      const keysArray = getObjectKeysArray(obj);
+//      const valuesArray = getObjectValuesArray(obj);‍
+//      console.log("Keys Array:", keysArray);
+//      console.log("Values Array:", valuesArray);‍
+//  }
+//  const exampleObject = { name: 'John', age: 25, city: 'New York' };
+//  processObject(exampleObject);
